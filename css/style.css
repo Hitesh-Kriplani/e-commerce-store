@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 56px;
+  font-family: 'Comfortaa'
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.slide1 {
+  background-image: url('../images/img8.jpg');
+}
+
+.slide2 {
+  background-image: url('../images/img4.jpg');
+}
+
+.slide3 {
+  background-image: url('../images/img5.jpg');
+}
+
+.f-light {
+  color: grey;
+  font-size: 5rem;
+}
+
+.slide-header {
+  font-size: 3.5rem;
+  color:cornsilk;
+  text-shadow: 10px wheat;
+}
+
+.f-brand {
+  color: black;
+  font-size: 1.5em;
+}
